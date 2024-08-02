@@ -21,8 +21,7 @@ width:200px;
 display: flex;
 border:none;
 border-radius:100px;
-background-color: ${(props) => props.BoxChange === false ? 'lightgrey' : 'yellow'};
-
+background-color: ${(props) => props.BoxChange === false ? 'black' : 'yellow'};
 box-shadow: ${(props) => props.BoxChange === false ? 'none' : '5px 5px 90px 5px yellow;'};
 
 `

@@ -13,6 +13,6 @@ export default function Button() {
             <Box BoxChange={lamp}></Box><br />
     <Botton onClick = {togle}>{lamp === false ? "off" : "on"}</Botton> 
     </Container>
-);
-  }
+    );
+}
 
